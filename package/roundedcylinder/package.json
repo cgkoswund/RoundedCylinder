@@ -4,7 +4,6 @@
   "description": "A Cylinder for react-three-fiber with bevelled edges",
   "main": "dist/cjs/index.js",
   "scripts": {
-    "test": "echo",
     "build": "rollup -c"
   },
   "repository": {
@@ -21,8 +20,15 @@
   "author": "sleekdigital, Jan Piero, Tim Affram",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@react-three/fiber": "^8.13.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "react": "^18.2.0",
+    "rollup": "^4.29.1",
     "three": "^0.152.2"
   },
   "peerDependencies": {
