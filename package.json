@@ -1,10 +1,13 @@
 {
   "name": "roundedcylinder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cylinder with beveled corners for react-three-fiber",
-  "main": "src/index.jsx",
+  "main": "package/roundedcylinder/dist/index.esm.js",
+  "workspaces": [
+    "package/roundedcylinder"
+  ],
   "scripts": {
-    "test": "-"
+    "build": "cd package/roundedcylinder/ && rollup -c"
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,17 @@
     "bevel",
     "rounded"
   ],
-  "author": " sleekdigital, Jan Piero, Timm Affram",
-  "license": "MIT"
+  "author": " sleekdigital, Jan Piero, Tim Affram",
+  "license": "MIT",
+  "devDependencies": {
+    "@react-three/fiber": "^8.13.0",
+    "react": "^18.2.0",
+    "three": "^0.152.2"
+  },
+  "peerDependencies": {
+    "@react-three/fiber": "^8.13.0",
+    "react": "^18.2.0",
+    "three": "^0.152.2"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
