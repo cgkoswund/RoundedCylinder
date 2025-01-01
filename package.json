@@ -7,7 +7,7 @@
     "package/roundedcylinder"
   ],
   "scripts": {
-    "test": "-"
+    "build": "cd package/roundedcylinder/ && rollup -c"
   },
   "repository": {
     "type": "git",
