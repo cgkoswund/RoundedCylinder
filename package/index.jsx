@@ -9,6 +9,7 @@ export const BeveledCylinder = ({
   bevelAmount,
   segments = 32,
   children,
+  ...props
 }) => {
   const points = React.useMemo(() => {
     const pts = [];
@@ -48,7 +49,7 @@ export const BeveledCylinder = ({
   }, [radiusTop, radiusBottom, height, bevelSegments, bevelAmount]);
 
   return (
-    <mesh>
+    <mesh {...props}>
       <latheGeometry args={[points, segments]} />
       {children}
     </mesh>
