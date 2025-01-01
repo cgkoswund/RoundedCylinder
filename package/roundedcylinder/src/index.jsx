@@ -1,5 +1,6 @@
 import { Vector2 } from "three";
 import * as React from "react";
+import TaperedCylinder from "./TaperedCylinder";
 
 export const BeveledCylinder = ({
   radiusTop,
@@ -56,4 +57,4 @@ export const BeveledCylinder = ({
   );
 };
 
-export { BeveledCylinder as default };
+export { BeveledCylinder as default, TaperedCylinder };
