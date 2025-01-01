@@ -4,7 +4,7 @@
   "description": "Cylinder with beveled corners for react-three-fiber",
   "main": "package/roundedcylinder/dist/index.esm.js",
   "scripts": {
-    "build": "cd package/roundedcylinder/ && rollup -c"
+    "build": "cd package/roundedcylinder/ && npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,27 @@
   "author": " sleekdigital, Jan Piero, Tim Affram",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@react-three/fiber": "^8.13.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "react": "^18.2.0",
+    "rollup": "^4.29.1",
     "three": "^0.152.2"
   },
   "peerDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@react-three/fiber": "^8.13.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "react": "^18.2.0",
+    "rollup": "^4.29.1",
     "three": "^0.152.2"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
