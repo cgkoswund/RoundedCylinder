@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "description": "Cylinder with beveled corners for react-three-fiber",
   "main": "package/roundedcylinder/dist/index.esm.js",
-  "workspaces": [
-    "package/roundedcylinder"
-  ],
   "scripts": {
     "build": "cd package/roundedcylinder/ && rollup -c"
   },
