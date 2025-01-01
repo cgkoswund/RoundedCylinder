@@ -1,6 +1,6 @@
 import { Vector2 } from "three";
 import * as React from "react";
-import TaperedCylinder from "./TaperedCylinder";
+import TaperedCylinder from "./TaperedCylinder.jsx";
 
 export const BeveledCylinder = ({
   radiusTop,
