@@ -99,4 +99,4 @@ const TaperedCylinder = ({
   );
 };
 
-export default TaperedCylinder;
+export { TaperedCylinder };
