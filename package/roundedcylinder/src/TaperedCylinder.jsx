@@ -1,7 +1,7 @@
 import { Vector2 } from "three";
 import * as React from "react";
 
-export const TaperedCylinder = ({
+const TaperedCylinder = ({
   radiusTop,
   radiusBottom,
   height,
@@ -99,4 +99,4 @@ export const TaperedCylinder = ({
   );
 };
 
-export { TaperedCylinder as default };
+export default TaperedCylinder;
